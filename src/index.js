@@ -11,7 +11,7 @@ const port = 3000;
 
 app.get('/', (req, res) => {
     res.send(
-      "<h1><a href=`http://${hostname}:3000/video1` target='_blank'>create a S3 bucket with terraform </a><br><a href=`http://${hostname}:3000/video2' target='_blank'>Installing AWS EBCLI in centos </a></h1>"
+      "<h1>Bootstrapping Microservices</h1>"
     );
 })
 app.get("/video1", (req, res) => {
